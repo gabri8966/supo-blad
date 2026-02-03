@@ -1,0 +1,49 @@
+"fecha,franja,producto,familia,unidades,precio_unitario,importe
+2025-10-01,Desayuno,Café solo,Bebida,3,1.5,4.5
+2025-10-01,Desayuno,Cafe solo,Bebida,2,1.5,3
+2025-10-01,Desayuno,Tostada tomate,Entrante,2,2.5,5
+2025-10-01,Comida,Agua,Bebídas,5,1.2,6
+2025-10-02,Desayuno,Café,Bebida,0,1.5,0
+2025-10-02,Desayuno,Bollería,Postre,4,2,8
+2025-10-02,Comida,Ensalada mixta,Entrante,3,6,18
+2025-10-03,Comida,Pollo asado,Principal,2,9,20
+2025-10-03,Comida,Pollo Asado,Prncipal,1,9,9
+2025-10-04,Desayuno,Zumo naranja,Bebida,,2.5,5
+2025-10-04,Comida,Pasta carbonara,Principal,3,8,24
+2025-10-05,Comida,Flan huevo,Postres,2,3,6
+2025-10-06,Desayuno,Café solo,Bebida,1,1.5,2
+2025-10-07,Comida,Agua,Bebida,4,1.2,4.8
+2025-10-08,Desayuno,Café,Bebida,2,1.5,3
+2025-10-09,Comida,Ensalada cesar,Entrante,2,7,14
+2025-10-10,Comida,Hamburguesa,Principal,3,10,25
+2025-10-11,Desayuno,Té verde,Bebida,1,1.8,1.8
+2025-10-12,Comida,Papas fritas,Entrante,2,4,8
+2025-10-13,Desayuno,Cafe,Bebida,2,1.5,3
+2025-10-14,Comida,Pescado plancha,Principal,2,12,24
+2025-10-15,Comida,Tarta queso,Postre,3,4,12
+2025-10-16,Desayuno,Zumo naranja,Bebida,1,2.5,2.5
+2025-10-17,Comida,Arroz negro,Principal,2,11,22
+2025-10-18,Comida,Agua,Bebida,0,1.2,0
+2025-10-19,Desayuno,Café solo,Bebida,3,1.5,4
+2025-10-20,Comida,Pollo asado,Principal,1,9,9
+2025-10-21,Comida,Ensalada mixta,Entrante,2,6,12
+2025-10-22,Desayuno,Bolleria,Postre,2,2,4
+2025-10-23,Comida,Hamburguesa,Principal,2,10,20
+2025-10-24,Desayuno,Té,Bebida,1,1.8,1.8
+2025-10-25,Comida,Pasta carbonara,Principal,3,8,23
+2025-10-26,Comida,Flan huevo,Postre,2,3,6
+2025-10-27,Desayuno,Café solo,Bebida,1,1.5,1.5
+2025-10-28,Comida,Pescado plancha,Principal,2,12,24
+2025-10-29,Comida,Agua,Bebida,3,1.2,3.6
+2025-10-30,Desayuno,Zumo naranja,Bebida,2,2.5,5
+2025-10-31,Comida,Arroz negro,Principal,1,11,11
+2025-11-01,Desayuno,Café solo,Bebida,2,1.5,3
+2025-11-02,Comida,Ensalada cesar,Entrante,3,7,21
+2025/11/12,Comida,Hamburguesa,Principal,2,10,20
+2025-13-05,Desayuno,Té,Bebida,1,1.8,1.8
+05-12-2025,Comida,Pasta carbonara,Principal,2,8,16
+2025-12-10,Comida,Pescado plancha,Principal,2,12,25
+2025-12-15,Desayuno,Café solo,Bebida,,1.5,3
+2025-12-20,Comida,Flan huevo,Postre,3,3,9
+2025-12-28,Comida,Agua,Bebida,4,1.2,4.8
+"
