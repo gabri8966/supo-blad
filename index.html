@@ -1,45 +1,107 @@
-<!-- index.html -->
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <title>BI Educativo - Ventas</title>
+  <meta charset="UTF-8">
+  <title>Dashboard BI Educativo - Ventas</title>
+
+  <!-- Chart.js CDN -->
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <script defer src="app.js"></script>
+
   <style>
-    body { font-family: Arial, sans-serif; margin: 20px; }
-    h1, h2 { margin-top: 30px; }
-    table { border-collapse: collapse; width: 100%; margin-bottom: 20px; }
-    th, td { border: 1px solid #ccc; padding: 6px; text-align: left; }
-    th { background: #f0f0f0; }
-    .kpis div { margin: 5px 0; font-weight: bold; }
-    canvas { max-width: 600px; margin: 20px 0; }
-    button { padding: 8px 12px; }
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background: #fafafa;
+    }
+
+    h1 {
+      margin-bottom: 5px;
+    }
+
+    .info {
+      color: #555;
+      margin-bottom: 20px;
+    }
+
+    .kpis {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 15px;
+      margin-bottom: 30px;
+    }
+
+    .kpi {
+      background: white;
+      border: 1px solid #ddd;
+      padding: 15px;
+      border-radius: 6px;
+      font-size: 16px;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      background: white;
+      margin-bottom: 30px;
+    }
+
+    th, td {
+      border: 1px solid #ddd;
+      padding: 6px;
+      font-size: 14px;
+    }
+
+    th {
+      background: #f0f0f0;
+    }
+
+    canvas {
+      max-width: 600px;
+      margin-bottom: 40px;
+    }
+
+    button {
+      padding: 10px 16px;
+      font-size: 14px;
+      cursor: pointer;
+    }
   </style>
 </head>
 <body>
 
-<h1>Business Intelligence Educativo – Ventas</h1>
-
-<div class="kpis">
-  <div id="rowsInfo"></div>
-  <div id="kpiVentas"></div>
-  <div id="kpiUnidades"></div>
+<h1>Dashboard BI Educativo – Ventas</h1>
+<div class="info">
+  Limpieza automática de datos y análisis básico de ventas (CSV)
 </div>
 
-<h2>Tablas</h2>
-<h3>Datos RAW (primeras 10 filas)</h3>
+<div class="kpis">
+  <div class="kpi" id="rowsInfo"></div>
+  <div class="kpi" id="kpiVentas"></div>
+  <div class="kpi" id="kpiUnidades"></div>
+</div>
+
+<h2>Vista de datos</h2>
+
+<h3>Primeras 10 filas RAW</h3>
 <table id="rawTable"></table>
 
-<h3>Datos LIMPIOS (primeras 10 filas)</h3>
+<h3>Primeras 10 filas LIMPIAS</h3>
 <table id="cleanTable"></table>
 
 <button id="downloadBtn">Descargar CSV limpio</button>
 
 <h2>Gráficos</h2>
+
+<h3>Top 5 productos por importe</h3>
 <canvas id="chartTop"></canvas>
+
+<h3>Ventas por franja</h3>
 <canvas id="chartFranja"></canvas>
+
+<h3>Ventas por familia</h3>
 <canvas id="chartFamilia"></canvas>
 
 </body>
 </html>
+
